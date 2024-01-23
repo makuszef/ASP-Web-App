@@ -1,0 +1,149 @@
+﻿body {
+    font-family:Arial;
+}
+.logowanieInput1 {
+    margin: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.logowanieInput2 {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.logowanieInput3 {
+
+    align-self:flex-end;
+    display: flex;
+    flex-direction: row;
+}
+.logowanieParent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logowanie {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aquamarine;
+    margin: 20px;
+}
+#LabelR {
+    text-align:center;
+}
+.B2 {
+    background-color:aquamarine;
+    border-radius: 12px;
+    border: 2px solid black;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 28px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.B2:disabled {
+    background-color:aliceblue;
+}
+.B1 {
+    background-color:burlywood;
+    border-radius: 12px;
+    border: 2px solid yellow;
+    cursor: pointer;
+    color: black;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 7px 28px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.B1:disabled {
+    background-color: aliceblue;
+}
+.B1:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.B2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#Image1 {
+    margin: auto;
+}
+.maly {
+    height: 50px;
+    width: 50px;
+}
+.sredni {
+    height: 75px;
+    width: 75px;
+}
+.duzy {
+    height: 100px;
+    width: 100px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: row;
+}
+.leftdiv {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+.rightdiv {
+    width: 70%;
+    display:flex;
+    flex-direction:column;
+}
+#gora {
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+#dol {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#pole1 {
+    display:flex;
+    width: 120px;
+    height: 120px;
+}
+#pole2 {
+    display: flex;
+    width: 120px;
+    height: 120px;
+}
+#pole3 {
+    display: flex;
+    width: 100%;
+    height: 120px;
+}
+#pole4 {
+    display: flex;
+    width: 120px;
+    height: 120px;
+}
+#pole5 {
+    display: flex;
+    width: 120px;
+    height: 120px;
+}
+.pole {
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    margin-bottom:1px;
+}
